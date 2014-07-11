@@ -1,0 +1,34 @@
+{
+  "name": "passport-elance",
+  "version": "0.1.2",
+  "description": "Elance authentication strategy for Passport.",
+  "keywords": ["passport", "elance", "auth", "authn", "authentication", "identity"],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/anshika1028/passport-elance.git"
+  },
+  "bugs": {
+    "url": "http://github.com/anshika1028/passport-elance.git"
+  },
+  "author": {
+    "name": "anshika Gupta",
+    "email": "anshika.gupta@laitkor.com",
+    "url": "http://www.laitkor.com/"
+  },
+  "licenses": [ {
+    "type": "MIT",
+    "url": "http://www.opensource.org/licenses/MIT" 
+  } ],
+  "main": "./lib/passport-elance",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  },
+  "engines": { "node": ">= 0.4.0" }
+}
